@@ -1,0 +1,86 @@
+/* HEADER */
+
+.navbar-brand img { 
+  max-width: 100px; 
+}
+
+.bg-dark { 
+  background: #333a40!important; 
+}
+.navbar-dark .navbar-nav .btn-compra-tickets { 
+  color: #25a342; 
+}
+.navbar-dark .navbar-nav .btn-compra-tickets:hover{ 
+  color: #a8b1aa; 
+}
+/* Main carosousel */
+
+.bg-carousel-ba1 { 
+  background-image: url(./img/ba1.jpg); 
+}
+.bg-carousel-ba2 { 
+  background-image: url(./img/ba2.jpg); 
+}
+.bg-carousel-ba3 { 
+  background-image: url(./img/ba3.jpg); 
+}
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item svg { 
+  opacity: .5; 
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
+}
+/* Main section */
+
+.titulo-gral {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.titulo-gral span {
+  display: block;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.bg-aside1 {
+  background: #333a40;
+  padding: 2rem;
+}
+/* Formulario */
+
+.btn-form {
+  background: #96c93e;
+  color: #fff !important;
+}
+.btn-form:hover { background: #74aa17;
+}
+/* FOOTER
+-------------------------------------------------- */
+
+#main-footer {
+  background:linear-gradient(to right, #1d3c4e,#165479) ;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+#main-footer .nav-link {
+  color: #fff;
+  text-align: center;
+}
+#main-footer .nav-link:hover { 
+    opacity: .7; 
+}
+  
