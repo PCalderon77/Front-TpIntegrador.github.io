@@ -32,7 +32,9 @@
 .carousel-item svg { 
   opacity: .5; 
 }
-
+#car-1 {
+  margin-left: 19em;
+}
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
@@ -67,8 +69,7 @@
 }
 .btn-form:hover { background: #74aa17;
 }
-/* FOOTER
--------------------------------------------------- */
+/* FOOTER */
 
 #main-footer {
   background:linear-gradient(to right, #1d3c4e,#165479) ;
@@ -83,4 +84,31 @@
 #main-footer .nav-link:hover { 
     opacity: .7; 
 }
-  
+/* carrito*/
+.main{
+  margin-top: 10%;
+}
+.contenedor-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.tarjeta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 189px;
+  width: 189px;
+  margin: 5px;
+}
+#tarjeta-1{
+  border:solid 1px #0d6efd;
+}
+#tarjeta-2{
+  border:solid 1px  #0dcaf0;
+}
+#tarjeta-3{
+  border:solid 1px  #ffc107;
+}

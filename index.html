@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Página con Bootstrap</title>
+    <title>TP Integrador</title>
     
     <!-- Enlazar a Bootstrap CSS a través de CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -28,16 +28,16 @@
                             <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Los oradores</a>
+                            <a class="nav-link" href="#oradores">Los oradores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">El lugar y la fecha</a>
+                            <a class="nav-link" href="#lugar">El lugar y la fecha</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#form-orador">Conviértete en orador</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-compra-tickets" href="#">Comprar tickets</a>
+                            <a class="nav-link btn-compra-tickets" href="carrito.html">Comprar tickets</a>
                         </li>
                         
                     </ul>
@@ -46,7 +46,6 @@
         </nav>
     </header>
     <main>
-
         <div id="myCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
@@ -59,10 +58,10 @@
                     <div class="container">
                         <div class="carousel-caption text-end pb-5">
                             <div class="row">
-                                <div class="col-lg-8 offset-lg-6">
+                                <div class="col-lg-8 offset-lg-6" id="car-1">
                                     <h3>Conf Bs. As.</h3>
                                     <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                                    <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#">Comprar tickets</a></p>
+                                    <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="carrito.html">Comprar tickets</a></p>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +75,7 @@
                                 <div class="col-lg-6 offset-lg-6">
                                     <h3>Conf Bs. As.</h3>
                                     <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                                    <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#">Comprar tickets</a></p>
+                                    <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="carrito.html">Comprar tickets</a></p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +89,7 @@
                                 <div class="col-lg-6 offset-lg-6">
                                     <h3>Conf Bs. As.</h3>
                                     <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                                    <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#">Comprar tickets</a></p>
+                                    <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="carrito.html">Comprar tickets</a></p>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +106,7 @@
             </button>
         </div>
     
-        <section class="container mb-4">
+        <section class="container mb-4" id="oradores">
             <h2 class="titulo-gral">Conoce a los <span>oradores</span></h2>
     
             <div class="row justify-content-center">
@@ -155,10 +154,9 @@
                     </div>
                 </div>
             </div>
-    
         </section>
     
-        <section class="mb-4">
+        <section class="mb-4" id="lugar">
             <div class="row g-0">
                 <div class="col-md">
                     <img src="img/honolulu.jpg" alt="Honolulu" class="img-fluid">
